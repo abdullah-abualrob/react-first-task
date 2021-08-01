@@ -1,0 +1,21 @@
+.container{
+    width: 768px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input{
+    width: 550px;
+    border: rgb(231, 231, 231) 1px solid;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.button{
+    width: 200px;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    border-radius: 3px;
+}

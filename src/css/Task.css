@@ -1,0 +1,33 @@
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox{
+    border: rgb(231, 231, 231) 1px solid;
+    border-radius: 3px;
+}
+
+.task-text{
+    width: max-content;
+    text-align: left;
+}
+
+.delete{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 38, 0);
+    border: red 1px solid;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
